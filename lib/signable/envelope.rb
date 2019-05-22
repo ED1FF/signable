@@ -5,7 +5,6 @@ module Signable
     column :fingerprint
     column :status
     column :signed_pdf
-    column :redirect_url
     embed :documents
     embed :parties
 
